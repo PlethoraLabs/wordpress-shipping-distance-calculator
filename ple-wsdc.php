@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Wordpress Shipping Distance Calculator
  * Plugin URI:        https://github.com/PlethoraLabs/wordpress-shipping-distance-calculator
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Calculate shipping distance costs using zip code
  * Version:           1.0.0
  * Author:            PlethoraThemes
  * Author URI:        http://plethorathemes.com
