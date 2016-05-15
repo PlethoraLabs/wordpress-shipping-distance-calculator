@@ -2,3 +2,32 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+#zipCodeWrapper {
+
+  display          : none;
+  position         : fixed;
+  width            : 100vw;
+  top              : 0;
+  left             : 0;
+  padding          : 10px;
+  border           : 1px solid gray;
+  background-color : #f0f0f0;
+  z-index          : 10001;
+  text-align       : center;
+
+}
+
+#zipCodeWrapper input {
+
+  width: 150px;
+
+}
+
+#zipCodeDismiss {
+
+  position : absolute;
+  right    : 16px;
+  top      : 5px;
+
+}
