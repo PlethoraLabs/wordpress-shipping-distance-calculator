@@ -151,7 +151,7 @@ class Ple_Wsdc_Public {
 
       }
 
-      return $p . "<br /><span style='font-size:80%' class='pro_price_extra_info'> Shipping Costs: " . get_woocommerce_currency_symbol() . $cost . "</span>";
+      return $p . "<br /><span style='font-size:80%' class='pro_price_extra_info'> Shipping Costs: " . get_woocommerce_currency_symbol() . $cost . "</span> <span class='delete_zip_code_cookie'> (X) </span>";
 
     } else {
 

@@ -27,7 +27,15 @@
           });
 
         }
+
       }
+
+      $('.delete_zip_code_cookie').click(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        Cookies.remove('zipCode');
+        location.reload();
+      });
 
 	 });
 
