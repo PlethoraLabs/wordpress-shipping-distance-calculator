@@ -68,5 +68,25 @@ class Ple_Wsdc_Helpers {
 
   }
 
+  public static function get_shortest_distance(){
+
+    /* GET SHORTEST DISTANCE FROM ALTERNATIVES */
+    /*
+    
+    (1) request the directions (with alternatives)
+    
+    $routes = json_decode(file_get_contents('http://maps.googleapis.com/maps/api/directions/json?origin=bomerstraat%2018,%20peer&destination=kievitwijk%2028,%20helchteren&alternatives=true&sensor=false'))->routes;
+    
+    (2) sort the routes based on the distance
+    
+    usort($routes,create_function('$a,$b','return intval($a->legs[0]->distance->value) - intval($b->legs[0]->distance->value);'));
+    
+    (3) print the shortest distance
+    
+    echo $routes[0]->legs[0]->distance->text;//returns 9.0 km
+    
+    */    
+  }
+
 
 }
